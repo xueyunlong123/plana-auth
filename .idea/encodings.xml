@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-enum" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-tools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-tools/common-config-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-tools/common-distribute-lock" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-tools/common-mongo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-tools/common-mybatis-plus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-tools/common-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plana-auth-api-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plana-auth-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plana-auth-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plana-auth-user-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plana-test" charset="UTF-8" />
+  </component>
+</project>

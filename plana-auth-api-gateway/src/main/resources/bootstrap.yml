@@ -1,0 +1,88 @@
+spring:
+  application:
+    name: plana-api-gateway
+#  cloud:
+#    config:
+#      profile: dev
+#      label: master
+#      discovery:
+#        enabled: true                                 # 默认false，设为true表示使用注册中心中的configserver配置而不自己配置configserver的uri
+#        serviceId: scaff-config-server-eureka  # 指定config server在服务发现中的serviceId，默认为：configserver
+  zipkin:
+    base-url: http://zipkin:9411
+  sleuth:
+    sampler:
+      percentage: 1.0
+  rabbitmq:
+      host: xyl
+      username: guest
+      password: 123456
+
+eureka:
+  instance:
+    hostname: gateway
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@discovery:8761/eureka/
+# 下面整个树都非必须，如果不配置，将默认使用 http://GATEWAY:GATEWAY_PORT/想要访问的Eureka服务id的小写/** 路由到：http://想要访问的Eureka服务id的小写:该服务端口/**
+#  ignored-services: '*'          # 需要忽视的服务(配置后将不会被路由)
+#  routes:
+#    user:                                               # 可以随便写，在zuul上面唯一即可；当这里的值 = service-id时，service-id可以不写。
+#      path: /user/**                                    # 想要映射到的路径
+#      service-id: scaff-provider-user                   # Eureka中的serviceId
+#
+#    auth-server:
+#      path: /uaa/**
+#      serviceId: auth-server
+#      sensitiveHeaders:
+#      strip-prefix: false
+#
+#    resource-server:
+#      path: /demo/**
+#      serviceId: resource-server
+#      sensitiveHeaders:
+#      strip-prefix: false
+#
+#    source-manager:
+#      path: /source-manager/**
+#      serviceId: business-source-manager
+#      sensitiveHeaders:
+#      strip-prefix: false
+#    business-data-analyze:
+#        path: /analyze/**
+#        serviceId: business-data-analyze
+#        sensitiveHeaders:
+#        strip-prefix: false
+plana:
+  auth:
+    services:
+      name : service-reg
+zuul:
+  okhttp:
+    enabled: true # 使用okhttp方式请求，正常来说okhttp比较速度快一点
+  semaphore:
+    max-semaphores: 500 # 并发处理数，值越大越好，但到到达一个临界点之后，就不会提高响应速度了
+  host:
+    socket-timeout-millis: 30000 # socket超时时间，如果使用service-id方式是不用配置的
+    connect-timeout-millis: 30000 # 连接时间semaphores
+    max-total-connections: 5000  # 最大连接数，值越大越好，但到到达一个临界点之后，就不会提高响应速度了
+    max-per-route-connections: 5 # 每个router最大连接数，降低请求时间，越小越好，但达到一定层级就没用了
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: false
+        isolation:
+          thread:
+            timeoutInMilliseconds: 30000 # Hystrix超时时间
+          strategy: THREAD
+ribbon:
+  ReadTimeout: 20000 # 处理时间
+  ConnectTimeout: 20000 # 连接时间
+  MaxAutoRetries: 0 #最大自动重试次数
+  MaxAutoRetriesNextServer: 1 # 换实例重试次数
+  MaxTotalHttpConnections: 2000 # 最大http连接数，越大越好，但到到达一个临界点之后，就不会提高响应速度了
+  MaxConnectionsPerHost: 1000 # 每个host连接数
+#logging:
+#  config: classpath:logback.xml

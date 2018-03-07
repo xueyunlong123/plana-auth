@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: plana-auth-center    # 这里名称需要和客户端的feign请求名称一致
+  redis:
+      host: 127.0.0.1
+      database: 0
+      port: 6379
+      timeout: 2000
+      pool:
+        max-active: 100
+        max-idle: 20
+        min-idle: 1
+        max-wait: 1000
+server:
+  port: 8102                    # 指定该Eureka实例的端口
+security:
+  sessions: stateless
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@discovery:8761/eureka/    # 指定自己使用eureka地址
+  instance:
+    preferIpAddress: true
+
+scaff:
+  mongo:
+    host: 127.0.0.1
+    database: plana
+    auth: false
+    maxWaitTime: 5000
+    connectionTimeout: 5000
+    connectionsPerHost: 5000
+    threadsAllowedToBlockForConnectionMultiplier: 5000
+logging:
+  config: classpath:logback.xml
+
+
+
+

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.boot:spring-boot-starter-redis:5.0.0.RELEASEE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-redis/5.0.0.RELEASEE/spring-boot-starter-redis-5.0.0.RELEASEE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-redis/5.0.0.RELEASEE/spring-boot-starter-redis-5.0.0.RELEASEE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-redis/5.0.0.RELEASEE/spring-boot-starter-redis-5.0.0.RELEASEE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

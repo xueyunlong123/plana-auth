@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-tools/common-config-center/common-config-center.iml" filepath="$PROJECT_DIR$/common-tools/common-config-center/common-config-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-tools/common-distribute-lock/common-distribute-lock.iml" filepath="$PROJECT_DIR$/common-tools/common-distribute-lock/common-distribute-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-enum/common-enum.iml" filepath="$PROJECT_DIR$/common-enum/common-enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-model/common-model.iml" filepath="$PROJECT_DIR$/common-model/common-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-tools/common-mongo/common-mongo.iml" filepath="$PROJECT_DIR$/common-tools/common-mongo/common-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-tools/common-mybatis-plus/common-mybatis-plus.iml" filepath="$PROJECT_DIR$/common-tools/common-mybatis-plus/common-mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-tools/common-redis/common-redis.iml" filepath="$PROJECT_DIR$/common-tools/common-redis/common-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-tools/common-tools.iml" filepath="$PROJECT_DIR$/common-tools/common-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common-utils/common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-web/common-web.iml" filepath="$PROJECT_DIR$/common-web/common-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plana-auth.iml" filepath="$PROJECT_DIR$/plana-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plana-auth-api-gateway/plana-auth-api-gateway.iml" filepath="$PROJECT_DIR$/plana-auth-api-gateway/plana-auth-api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plana-auth-center/plana-auth-center.iml" filepath="$PROJECT_DIR$/plana-auth-center/plana-auth-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plana-auth-client/plana-auth-client.iml" filepath="$PROJECT_DIR$/plana-auth-client/plana-auth-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plana-auth-user-manager/plana-auth-user-manager.iml" filepath="$PROJECT_DIR$/plana-auth-user-manager/plana-auth-user-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plana-test/plana-test.iml" filepath="$PROJECT_DIR$/plana-test/plana-test.iml" />
+    </modules>
+  </component>
+</project>

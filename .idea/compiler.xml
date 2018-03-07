@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-config-center" />
+        <module name="common-distribute-lock" />
+        <module name="common-enum" />
+        <module name="common-model" />
+        <module name="common-mongo" />
+        <module name="common-mybatis-plus" />
+        <module name="common-redis" />
+        <module name="common-utils" />
+        <module name="common-web" />
+        <module name="plana-auth-api-gateway" />
+        <module name="plana-auth-center" />
+        <module name="plana-auth-client" />
+        <module name="plana-auth-user-manager" />
+        <module name="plana-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-config-center" target="1.8" />
+      <module name="common-distribute-lock" target="1.8" />
+      <module name="common-enum" target="1.8" />
+      <module name="common-model" target="1.8" />
+      <module name="common-mongo" target="1.8" />
+      <module name="common-mybatis-plus" target="1.8" />
+      <module name="common-redis" target="1.8" />
+      <module name="common-tools" target="1.8" />
+      <module name="common-utils" target="1.8" />
+      <module name="common-web" target="1.8" />
+      <module name="plana-auth" target="1.8" />
+      <module name="plana-auth-api-gateway" target="1.8" />
+      <module name="plana-auth-center" target="1.8" />
+      <module name="plana-auth-client" target="1.8" />
+      <module name="plana-auth-user-manager" target="1.8" />
+      <module name="plana-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

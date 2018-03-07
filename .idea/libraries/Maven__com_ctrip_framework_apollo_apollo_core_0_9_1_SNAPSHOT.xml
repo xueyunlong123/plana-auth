@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ctrip.framework.apollo:apollo-core:0.9.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ctrip/framework/apollo/apollo-core/0.9.1-SNAPSHOT/apollo-core-0.9.1-20180103.103139-2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ctrip/framework/apollo/apollo-core/0.9.1-SNAPSHOT/apollo-core-0.9.1-20180103.103139-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ctrip/framework/apollo/apollo-core/0.9.1-SNAPSHOT/apollo-core-0.9.1-20180103.103139-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
